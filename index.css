@@ -1,0 +1,123 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(232, 243, 239);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    border: auto;
+    outline: none;
+}
+#content_container {
+    width: 30%;
+    height: 70%;
+}
+
+#form_container {
+    width: 900px;
+    height: 500px;
+    background-color: rgb(229, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    border-radius: 20px;
+    
+}
+
+#form_header_container {
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+
+    padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+    border-bottom: 3px solid transparent;
+    border-image: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF) 3rem;
+    background: rgba(226, 157, 251, 0.484);
+    
+}
+
+#form_header {
+    display: inline-block;
+    font-size: 50px;
+    font-family: chiller;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+    background: -webkit-linear-gradient(5000000deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      
+}
+
+#form_content_container {
+    width: 100%;
+    height: 90%;
+
+    float: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+#form_content_inner_container {
+    width: 75%;
+    height: 100%;
+
+    float: left;
+
+}
+
+input {        
+    width: 100%;
+    height: 40px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    background: rgb(3, 249, 192);
+    font-family: Montserrat;
+    font-weight: 500;
+    color: rgb(3, 0, 0);
+    font-size: 1.5rem;
+
+}
+
+#button_container {
+           font-family: 'Comfortaa', cursive;
+        font-size: 2rem;
+        font-weight: 700;
+        padding: 8px 0px;
+        color: #999c9a;
+}
+
+#button_container button {
+    border:none;
+        border-bottom:3px solid #1FAB89;
+        width: 180px;
+        margin: 10px 0px;
+        outline: none;
+        font-size: 2rem;
+        padding: 5px 0px;  
+        font-family: 'Comfortaa', cursive;
+        font-weight: 800;  
+}
