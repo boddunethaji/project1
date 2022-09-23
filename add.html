@@ -1,27 +1,43 @@
 <html>
-<head>
+    <div id="inner_container">
+        <button onclick="myFunction()">dark mode</button>
+        <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
 <style>
-#out{
-background-color:rgb(182, 249, 255);
-}
-div{
-background-color:rgb(215, 249, 174);
-width: 600px;
-padding:auto;
-margin:auto;
-font-size:20px;
-outline:solid lightgrey 2000px;
-margin:auto;
-padding:15px;
-}
-</style>
-</head>
+    .dark-mode {
+        background-color: black;
+        color: white;
+      }
+      #out{
+        background-color:rgb(182, 249, 255);
+        }
+       
+        #content_container {
+            background-color: antiquewhite;
+            width: 30%;
+            height:45%;
+            margin:auto;
+            padding:auto;
+            font-size:1.5rem;
+            font-family:Britannic;
+            display: center;
+        justify-content: center;
+        align-items: center;
+        float: c
+        }
+    </style>
 <body>
-    <div><div><div><div>
-<title>Addition of two numbers</title>
+    
+<title>Addition</title>
 <div>
 <div>
-<h1 style="color:red"><p align ="center">Addition of two numbers</p></h1>
+    <div id="content_container">
+        <p align="center">
+<h1 style="color:red"><p align ="center">Addition</p></h1>
 <h style="color:rgb(5, 0, 0)">
 <p align = "center">enter first number:<input id="first">
 <br /><br 
@@ -29,9 +45,7 @@ padding:15px;
 <button onclick="add()">submit</button><br/><br/>
 result:<input id="out"></h></p
 </div>
-</div>
-</div>
-</div>
+</p>
 </div>
 </div>
 </body>
