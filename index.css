@@ -109,6 +109,10 @@ input {
         padding: 8px 0px;
         color: #999c9a;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
 
 #button_container button {
     border:none;
